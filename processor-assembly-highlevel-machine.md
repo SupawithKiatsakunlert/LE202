@@ -35,23 +35,6 @@ square(int):
         .byte 0,9,0,0,128,1,0,1
 # JDK 17.0.0
 สามารถเขียน java
-class Square {
-    static int square(int num) {
-        return num * num;
-    }
-}
+![java](https://user-images.githubusercontent.com/98943823/161420847-97f29a17-c865-4a59-8b61-61c5c5f03936.JPG)
 และแปลงเป็น Low level Language ได้คือ 
-class Square {
-  Square();
-       0: aload_0
-       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
-       4: return
-
-
-  static int square(int);
-       0: iload_0
-       1: iload_0
-       2: imul
-       3: ireturn
-
-}
+![assembly](https://user-images.githubusercontent.com/98943823/161420859-6e272499-cd89-4991-b845-2ee0dbde9a9e.JPG)
