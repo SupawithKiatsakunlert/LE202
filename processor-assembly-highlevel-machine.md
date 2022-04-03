@@ -35,6 +35,9 @@ square(int):
         .byte 0,9,0,0,128,1,0,1
 # JDK 17.0.0
 สามารถเขียน java
+
 ![java](https://user-images.githubusercontent.com/98943823/161420847-97f29a17-c865-4a59-8b61-61c5c5f03936.JPG)
+
 และแปลงเป็น Low level Language ได้คือ 
+
 ![assembly](https://user-images.githubusercontent.com/98943823/161420859-6e272499-cd89-4991-b845-2ee0dbde9a9e.JPG)
