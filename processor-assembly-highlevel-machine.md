@@ -11,28 +11,13 @@ Manchine Language หรือที่เรียกอีกอย่าง�
 ## ตัวอย่าง ของ Processor 
 # Power64 AT 12.0 
 โดยสามารถเเขียนภาษา C+ ยกตัวอย่างเช่น 
-int square(int num) {
-    return num * num;
-}
+
+![c++](https://user-images.githubusercontent.com/98943823/161420918-4cdad628-ed7f-4f32-99c3-753c14d6199b.JPG)
+
 สามารถแปลงเป็น Low level Language ได้คือ 
-square(int):
-        .quad   .L.square(int),.TOC.@tocbase,0
-.L.square(int):
-        std 31,-8(1)
-        stdu 1,-64(1)
-        mr 31,1
-        mr 9,3
-        stw 9,112(31)
-        lwz 10,112(31)
-        lwz 9,112(31)
-        mullw 9,10,9
-        extsw 9,9
-        mr 3,9
-        addi 1,31,64
-        ld 31,-8(1)
-        blr
-        .long 0
-        .byte 0,9,0,0,128,1,0,1
+
+![assembly2](https://user-images.githubusercontent.com/98943823/161420925-cce431ec-656f-40d4-b85e-5f24965811aa.JPG)
+
 # JDK 17.0.0
 สามารถเขียน java
 
