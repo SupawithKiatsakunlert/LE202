@@ -26,3 +26,5 @@ Manchine Language หรือที่เรียกอีกอย่าง�
 และแปลงเป็น Low level Language ได้คือ 
 
 ![assembly](https://user-images.githubusercontent.com/98943823/161420859-6e272499-cd89-4991-b845-2ee0dbde9a9e.JPG)
+
+![image](https://user-images.githubusercontent.com/98943823/161420954-b7a3fe2e-9710-4f0b-9a58-d4c9396798ff.png)
